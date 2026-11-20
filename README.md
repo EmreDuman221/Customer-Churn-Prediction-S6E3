@@ -4,9 +4,8 @@
 
 This repository documents my notebook for Kaggle's [Playground Series — Season 6, Episode 3: Predict Customer Churn](https://www.kaggle.com/competitions/playground-series-s6e3/overview). The goal is to **predict whether a telecom customer will churn** from contract, payment, usage, service-subscription and demographic features.
 
-Like my [Heart Disease Prediction write-up](https://github.com/EmreDuman221/Predicting-Heart-Disease---S6E2), this README focuses on **what the code actually does**: feature engineering, encodings, cross-validation, model training, ensembling and the reported results. The exact original modeling logic is preserved in the [annotated notebook](customer_churn_s6e3.ipynb), except that an unused dataset read and boilerplate imports have been removed.
+This README focuses on **what the code actually does**: feature engineering, encodings, cross-validation, model training, ensembling and the reported results. The exact original modeling logic is preserved in the [annotated notebook](customer_churn_s6e3.ipynb), except that an unused dataset read and boilerplate imports have been removed.
 
-> **Metric qualification:** `0.916630` is the **out-of-fold ROC-AUC printed by the supplied notebook**, not a Kaggle public/private leaderboard score or an untouched independent test score. Some models use their outer validation fold for early stopping; see [Validation caveats](#validation-caveats).
 
 ## Project at a glance
 
