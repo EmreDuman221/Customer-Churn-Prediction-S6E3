@@ -1,0 +1,8 @@
+# Python 3.12 was used in the original Kaggle runtime.
+numpy
+pandas
+scikit-learn
+xgboost
+lightgbm
+catboost
+notebook
